@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Візитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #000000;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #000000 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('background.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 15px;
+        }
+        .contact, .social {
+            background: #000000;
+            color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+    </style>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1>Ваша Ім'я</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="main1.html">Наша кухня</a></li>
+                        <li><a href="main2.html">Про ресторан</a></li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+    
+        <div class="container content">
+            <h1>Про ресторан</h1>
+            <p>Ресторан - це заклад громадського харчування, де ми подаємо страви та напої для споживання на місці. Ресторан може варіюватись за стилем кухні (національна, міжнародна, авторська тощо). В нас часто проводять зустрічі, святкують та ми проводимо бізнес-обіди. Наш ресторан має важливу роль у культурному та соціальному житті, сприяючи смаковим враженням та соціальним взаємодіям.</p>
+        </div>
+    
+        <div class="container contact">
+            <h2>Контакти</h2>
+            <p>Email: ваша_почта@example.com</p>
+            <p>Телефон: +38 (012) 345-67-89</p>
+        </div>
+    
+        <div class="container social">
+            <h2>Мої соціальні мережі</h2>
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">LinkedIn</a>
+        </div>
+        <button onclick="window.location.href = 'main1.html'">Перейти на іншу сторінку</button>
+    </body>
